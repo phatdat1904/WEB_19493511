@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0px; margin: 0px auto;}
+        .wrapper{
+            height: 700px;
+            width: 1089px;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid rgb(0, 0, 0);
+        }
+        header{
+            height: 120px;
+            width: 1089px;
+            background-color: rgb(77, 244, 96);
+            position: relative;
+        }
+        .top-menu li{
+            height: 50px;
+            width: 200px;
+            display: inline-table;
+            text-indent: 20px; 
+            line-height: 50px;
+            list-style: none;
+            position: absolute;
+        }
+        .top-menu li:nth-child(1){
+            top: 60px;
+            right: 640px;
+        }
+        .top-menu li:nth-child(2){
+            top: 60px;
+            right: 540px;
+        }
+        .top-menu li:nth-child(3){
+            top: 60px;
+            right: 440px;
+        }
+        .top-menu li:nth-child(4){
+            top: 60px;
+            right: 340px;
+        }
+        .top-menu li:nth-child(5){
+            top: 60px;
+            right: 240px;
+        }
+        .top-menu form{
+            top: 60px;
+            right: 140px;
+        }
+        nav{
+            height: 50px;
+            width: 1089px;
+            background-color: rgb(237, 117, 96);
+        }
+        .menu li{
+            height: 50px;
+            width: 214.6px;
+            display: inline-table;
+            text-indent: 20px;
+            line-height: 50px;
+            list-style: none;
+        }
+        li a{
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .menu li:hover{
+            background-color: rgb(255, 255, 255);
+        }
+        li:hover>a{
+            color: rgb(0, 0, 0);
+            font-style: oblique;
+        }
+        .content{
+            height: 330px;
+            width: 1089px;
+            background-color: rgb(84, 189, 245);
+        }
+        #as1{
+            height: 330px;
+            width: 30%;
+            float: left;
+        }
+        #as2{
+            height: 330px;
+            width: 30%;
+            float: left;
+        }
+        section{
+            height: 330px;
+            width: 40%;
+            background-color: rgb(253, 253, 253);
+            float: left;
+        }
+        footer{
+            height: 200px;
+            width: 1089px;
+            background-color: rgb(242, 62, 224);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <ul class="top-menu">
+                <li><a href="">HOME</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href=""></a>ABOUT</li>
+                <li><a href=""></a>HELP</li>
+                <form action="" method="post">
+                    <label for="">USER NAME</label>
+                    <input type="text" name="txtName" id="txtName">
+                    <button>GO</button>
+                </form>
+            </ul>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="">HOME</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href=""></a>ABOUT</li>
+                <li><a href=""></a>HELP</li>
+            </ul>
+        </nav>
+        <div class="content">
+            <aside id="as1">
+
+            </aside>
+            <section>
+
+            </section>
+            <aside id="as2">
+
+            </aside>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px auto;
+        }
+        .wrapper{
+            height: 600px;
+            width: 960px;
+            background-color: aliceblue;
+            border: 1px solid black;
+        }
+        header{
+            height: 110px;
+            width: 960px;
+            background-color: #294e79;
+            position: absolute;
+        }
+        header img{
+            position: absolute;
+            top: 15px;
+            left: 15px;
+        }
+        .p1{
+            font-size: 40px;
+            position: absolute;
+            top: 15px;
+            left: 80px;
+            color: white;
+        }
+        .p2{
+            font-size: 15px;
+            position: absolute;
+            top: 60px;
+            left: 75px;
+            color: white;
+        }
+        #frm1{
+            top: 10px;
+            right: 20px;
+            position: absolute;
+        }
+        .top-menu li{
+            background-color: #30649f;
+            height: 45px;
+            max-width: 130px;
+            float: left;
+            position: absolute;
+            list-style: none;
+            text-indent: 20px;
+            line-height: 45px;
+            bottom: 1px;
+            
+        }
+        li a{
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+            text-align: center;
+        }
+        .top-menu li:hover{
+            background-color: blue;
+        }
+        li:hover>a{
+            color: yellow;
+            font-style: italic;
+        }
+        .top-menu li:last-child{
+            right: 10px;
+        }
+        .top-menu li:nth-child(4){
+            right: 84px;
+        }   
+        .top-menu li:nth-child(3){
+            right: 224px;
+        }
+        .top-menu li:nth-child(2){
+            right: 340px;
+        }
+        .top-menu li:nth-child(1){
+            right: 445px;
+        }
+        .content{
+            height: 570px;
+            width: 960px;
+            background-color: rgb(147, 243, 192);
+        }
+        .c1{
+            height: 570px;
+            width: 40%;
+            float: left;
+            
+        }
+        .a1{
+            font-size: 20px;
+            color: rgb(0, 0, 0); 
+            position: relative;   
+        }
+        .c2{
+            height: 570px;
+            width: 30%;
+            background-color: rgb(185, 96, 96);
+            float: left;
+        }
+        .c3{
+            height: 570px;
+            width: 30%;
+            float: left; 
+        }
+        footer{
+            height: 30px;
+            width: 960px;
+            background-color: darkslateblue;
+            position: absolute;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="../image/hoa.png" alt="" style="width: 60px; height: 80px;">
+            <p class="p1">
+                FlowerBox 360
+            </p>
+            <p class="p2">
+                ...to get your daily dose of luxury roses!
+            </p>
+            <from action="" method="get" id="frm1">
+                <input type="text" name="txtName" id="txtName">
+                <button type="submit">GO</button>   
+
+            </from>
+            <ul class="top-menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Promotion</a></li>
+                <li><a href="">Gift Baskets</a></li>
+                <li><a href="">Flower Servives</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="c1">
+                <p class="a1">Why Not Contact Us Today!</p>
+            </div>
+            <div class="c2">
+
+            </div>
+            <div class="c3">
+                <p>Discounts & Specials</p>
+                <img src="../image/anh-as3.png" alt="">
+            </div>
+        </div>
+        <footer>
+            <p>Copyright @ 2017 - All Rights Reserved - Software Engineering Department - Industrial University of Ho Chi Minh City</p>
+        </footer>
+    </div>
+</body>
+</html>
